@@ -12,7 +12,7 @@ const homepageProductController = require('./server/src/controllers/homePage.con
 
 app.use(express.json())
 app.use(cors());
-app.use("/catogory" , mensController);
+app.use("/mens" , mensController);
 app.use("/catogory" , womensController);
 app.use("/homepageProducts",homepageProductController);
 // app.use("/address" , addressController);
