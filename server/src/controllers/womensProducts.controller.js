@@ -3,7 +3,7 @@ const WomensProduct = require("../models/womensProduct.model");
 const router = express.Router();
 
 // for adding the new products to the mens section
-router.post("/womens", async (req, res) => {
+router.post("/", async (req, res) => {
   try {
     const womensProducts = await WomensProduct.create(req.body);
 
@@ -15,7 +15,7 @@ router.post("/womens", async (req, res) => {
 
 // getting and showing the products to front-end
 
-router.get("/womens", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     const womensProducts = await WomensProduct.find().lean().exec();
 
@@ -25,7 +25,7 @@ router.get("/womens", async (req, res) => {
   }
 });
 
-router.delete("/womens/:_id", async (req, res) => {
+router.delete("/:_id", async (req, res) => {
   try {
     const womensProduct = await WomensProduct.findByIdAndDelete(req.params._id);
 
@@ -35,7 +35,7 @@ router.delete("/womens/:_id", async (req, res) => {
   }
 });
 
-router.get("/womens/:_id", async (req, res) => {
+router.get("/:_id", async (req, res) => {
   //console.log('req.params.id: ', req.params._id);
   try {
     const womensProduct = await WomensProduct.findById(req.params._id)
