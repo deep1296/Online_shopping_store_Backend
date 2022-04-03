@@ -6,7 +6,7 @@
 An e-commerce Indian website of wide range of apparel, cosmetics, household items, and many more categories 
  
 ## Deployed link of project
-- https://meesho-clone-xi.vercel.app//
+- https://meesho-clone-xi.vercel.app/
 
 ## Team Members
 
