@@ -13,7 +13,7 @@ app.use(express.json())
 app.use(cors());
 app.use("/mens" , mensController);
 app.use("/womens" , womensController);
-app.use("/homepageProducts",homepageProductController);
+app.use("/products",homepageProductController);
 
 
 
