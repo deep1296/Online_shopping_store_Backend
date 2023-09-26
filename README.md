@@ -1,7 +1,7 @@
 
-# Meesho Clone - BACKEND
+# Online Shopping Store - BACKEND
 
-###  To check out the whole project, also clone and run the frontend part of the project on this link [Meesho Clone - FRONTEND](https://github.com/deep1296/Meesho_clone)
+###  To check out the whole project, also clone and run the frontend part of the project on this link [Online Shopping Store - FRONTEND](https://github.com/deep1296/Meesho_clone)
 
 An e-commerce Indian website of wide range of apparel, cosmetics, household items, and many more categories 
  
